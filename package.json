@@ -13,6 +13,8 @@
     "email": "cp .env ./node_modules/react-email && email dev --dir email --port 3001"
   },
   "dependencies": {
+    "@auth/core": "^0.37.4",
+    "@auth/prisma-adapter": "^2.7.4",
     "@hookform/resolvers": "^3.9.1",
     "@neondatabase/serverless": "^0.10.3",
     "@prisma/adapter-neon": "^6.5.0",
@@ -26,6 +28,7 @@
     "@radix-ui/react-slot": "^1.1.0",
     "@radix-ui/react-toast": "^1.2.2",
     "@uploadthing/react": "^7.1.2",
+    "bcrypt-ts-edge": "^3.0.1",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "embla-carousel-autoplay": "^8.5.1",
